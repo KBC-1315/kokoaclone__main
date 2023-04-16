@@ -1,0 +1,306 @@
+.chat__page{
+    position:relative;
+    height:1343px;
+    width:750px;
+    background-color:#9bbbd4;
+}
+.chat__page__title {
+    width:100%;
+    position:absolute;
+    top:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    font-weight:600;
+}
+.chat__page__title > i {
+    margin-left:20px;
+    margin-right:230px;
+}
+.chat__page__title > div {
+    margin-right:20px;
+    margin-left:125px;
+}
+.chat__page__title > div i {
+    margin-left:20px;
+}
+.bar__time {
+    width:300px;
+    height:50px;
+    border-radius:30px;
+    background-color:rgba(0,0,0,0.1);
+    color:white;
+    font-size:23px;
+    position:absolute;
+    top:150px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.chat__first{
+    width:100%;
+    height:100px;
+    font-size:23px;
+    display:flex;
+    position:absolute;
+    top:250px;
+    color:rgba(0,0,0,0.4);
+}
+.chat__first img{
+    border-radius:40%;
+    background-color:white;
+    margin-right:15px;
+}
+.chat__first__text {
+    display:flex;
+    align-items:flex-end;
+
+}
+.chat__first__text div{
+    width:70px;
+    height:70px;
+    background-color:white;
+    border-radius:30%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:black;
+    margin-right:10px;
+    font-weight:550;
+}
+.chat__second{
+    width:100%;
+    height:100px;
+    font-size:23px;
+    display:flex;
+    position:absolute;
+    justify-content:flex-end;
+    top:400px;
+    color:rgba(0,0,0,0.4);
+}
+.chat__second img{
+    border-radius:40%;
+    margin-right:15px;
+}
+.chat__second__text {
+    display:flex;
+    align-items:flex-end;
+
+}
+.chat__second__text div{
+    width:170px;
+    height:70px;
+    background-color:yellow;
+    border-radius:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:black;
+    margin-right:10px;
+    margin-left:10px;
+    font-weight:550;
+}
+.input__box {
+    height:35%;
+    width:100%;
+    position:absolute;
+    bottom:0px;
+    background-color:grey;
+}
+.input__box__input {
+    width:100%;
+    height:60px;
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:40px;
+    color:rgba(0,0,0,0.5);
+}
+.input__box__input__messages{
+    padding-left:40px;
+    width:80%;
+    height:85%;
+    background-color:rgba(0,0,0,0.2);
+    border:1px solid rgba(0,0,0,0.2);
+    color:black;
+    border-radius:30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-left:30px;
+}
+.input__box__input__messages div {
+    margin-right:20px;
+}
+.input__box__input__messages div i:last-child{
+    color:yellow;
+    background-color:none;
+}
+.top__stage {
+    width:100%;
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;    
+}
+.top__stage div {
+    margin-top:10px;
+    height: 95%;
+    width:9%;
+    background-color:white;
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:black;
+    font-size:40px;
+    font-weight:540;
+    margin-left:5px;
+    margin-right:5px;
+}
+.second__stage {
+    width:100%;
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;    
+}
+.second__stage div {
+    margin-top:30px;
+    height: 95%;
+    width:9%;
+    background-color:white;
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:black;
+    font-size:40px;
+    font-weight:540;
+    margin-left:5px;
+    margin-right:5px;
+}
+.third__stage {
+    width:100%;
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;    
+}
+.third__stage div {
+    margin-top:40px;
+    height: 95%;
+    width:9%;
+    background-color:white;
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:black;
+    font-size:40px;
+    font-weight:540;
+    margin-left:5px;
+    margin-right:5px;
+}
+.third__stage div:first-child {
+    margin-top:40px;
+    height: 95%;
+    width:12%;
+    background-color:rgba(0,0,0,0.6);
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:40px;
+    font-weight:540;
+    margin-left:5px;
+    margin-right:5px;
+}
+.third__stage div:last-child {
+    margin-top:40px;
+    height: 95%;
+    width:12%;
+    background-color:rgba(0,0,0,0.6);
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:40px;
+    font-weight:540;
+    margin-left:5px;
+    margin-right:5px;
+}
+.last__stage {
+    width:100%;
+    height:80px;
+    display:flex;
+    justify-content:center;
+    align-items:center;    
+}
+.last__stage div {
+    margin-top:40px;
+    height: 95%;
+    width:9%;
+    background-color:white;
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:black;
+    font-size:40px;
+    font-weight:540;
+    margin-left:5px;
+    margin-right:5px;
+}
+.last__stage div:first-child {
+    margin-top:40px;
+    height: 95%;
+    width:12%;
+    background-color:rgba(0,0,0,0.6);
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:40px;
+    font-weight:540;
+    margin-left:5px;
+    margin-right:5px;
+}
+.last__stage div:nth-child(2) {
+    margin-top:40px;
+    height: 95%;
+    width:12%;
+    background-color:rgba(0,0,0,0.6);
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:40px;
+    font-weight:540;
+    margin-left:5px;
+    margin-right:5px;
+}
+.last__stage div:nth-child(4) {
+    width:36%;
+}
+.last__stage div:last-child {
+    margin-top:40px;
+    height: 95%;
+    width:16%;
+    background-color:rgba(0,0,0,0.6);
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:40px;
+    font-weight:540;
+    margin-left:5px;
+    margin-right:5px;
+}

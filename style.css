@@ -1,0 +1,19 @@
+@import "components/status_bar.css";
+@import "components/nagivation_bar.css";
+@import "components/page02.css";
+@import "components/page03.css";
+@import "components/page04.css";
+@import "components/page05.css";
+@import "components/page06.css";
+@import "components/page07.css";
+@import "components/page09.css";
+
+body {
+    width:750px;
+    height:1334px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    flex-direction:column;
+}
